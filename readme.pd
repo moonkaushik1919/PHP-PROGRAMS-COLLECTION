@@ -1,1 +1,21 @@
+PHP Programs Collection – Semester Project
 
+
+Overview
+This repository contains all the PHP programs and practicals I have completed during my semester. It covers fundamental to intermediate concepts of PHP including form handling, string manipulation, file handling, sessions, and database connectivity.
+
+
+Objectives
+
+To understand core PHP syntax and structure
+To implement server-side scripting concepts
+To practice real-world programming problems using PHP
+To build a strong foundation in web development
+
+
+Technologies Used
+PHP
+HTML
+CSS (for basic styling)
+MySQL (for database-related programs)
+XAMPP / WAMP (local server environment)
