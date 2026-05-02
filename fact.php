@@ -1,0 +1,21 @@
+<?php
+$number=4200;
+$arr=array();
+$count=0;
+for($i=1;$i<=$number;$i++)
+{
+if($number%$i==0)
+{
+$arr[$count]=$i;
+$count++;
+}
+if($count==10)
+{
+break;
+}
+}
+for($k=0;$k<=$count;$k++)
+{
+echo $arr[$k]."<br>";
+}
+?>  

@@ -1,0 +1,27 @@
+import java.io.*;
+import java.net.*;
+public class Q3server {
+
+    public static void main(String[] args) {
+        
+        try {
+            ServerSocket ss = new ServerSocket();
+            System.out.println("Server connection started ");
+            
+            Socket s = ss.accept();
+            System.out.println("Client connection started ");
+            
+            DataInputStream dis = DataInputStream();
+            String msg = dis.readUTF();
+            System.out.println(" Message: " + msg );
+            System.out.println("Server Established ");
+            
+            ss.close();
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+
+
+        
+
+    }
